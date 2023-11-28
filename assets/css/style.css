@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+}
+header {
+  padding: 7px;
+  margin: 0px;
+  height: 800px;
+  text-align: center;
+  font-size: 50px;
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 72px;
+  background
+}
+
+.flex-container{
+  display: flex;
+  width: 100%;
+  height: 348px;
+}
+.texto{
+  padding-top: 71px;
+  padding-left: 150px;
+  width: 475px;
+  height: 197px;
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+.foto{
+  margin: 0;
+  padding-top: 45px;
+  padding-right: 150;
+  padding-left: 106px;
+  padding-bottom: 66px;
+  width: 399px;
+  height: 237px;
+}
+.caracteristicas {
+  background-color: #1E1A13 ;
+  padding: 20px;
+  text-align: center;
+}
+.flex{
+  display: flex;
+  text-align: center;
+  gap: 80px;
+  justify-content: center;
+  padding: 20px;
+}
+.galeria{
+  margin: 0px;
+  height: 275px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 73px;
+  gap: 16px;
+  margin: 0px;
+}
+.img {
+  height: 202px;
+  width: 316px;
+}
+footer {
+  text-decoration: none;
+  color: #FFFFFF;
+  box-shadow: none;
+  background-color: #1E1A13;
+  height: 50px;
+  font-size: s20px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 8px;
+}
+footer a{
+  text-decoration: none;
+  color: #FFFFFF; 
+}
+footer a:hover{
+  color: green;
+}
